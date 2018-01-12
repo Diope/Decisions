@@ -1,10 +1,17 @@
 .Header {
-  background: $mainBackground;
+  background: $main-off-black;
   color: white;
-  margin-bottom: 4.6rem;
-  padding: 1.6rem 0;
-}
+  margin-bottom: $xlarge-spacing;
+  padding: $medium-spacing 0;
 
-.Header__title {
-  
+  &__title {
+    font-size: $xlarge-spacing;
+    margin: 0;
+  }
+
+  &__subtitle {
+    color: $main-off-white;
+    font-size: $medium-spacing;
+    font-weight: 500;
+  }
 }

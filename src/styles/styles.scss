@@ -1,4 +1,6 @@
+@import './base/_variables.scss';
 @import './base/base';
 
-@import './base/_variables.scss';
+@import './components/container';
+@import './components/button';
 @import './components/header.scss'

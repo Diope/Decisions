@@ -1,0 +1,45 @@
+.Big-button {
+  background: $main-purple;
+  //border-radius: 50rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: $large-spacing;
+  padding: 2.4rem;
+  width: 100%;
+  margin-bottom: $large-spacing;
+  box-shadow: 0 3px 6px 1px rgba(black, .1);
+  transition: all .3s;
+
+  &:hover:enabled {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.02);
+  }
+
+  &:active {
+    transform: translateY(5px) scale(1);
+  }
+
+  &:disabled {
+    opacity: .4;
+  }
+}
+
+.Button {
+  background: $main-purple;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: $small-size;
+  margin-bottom: $large-spacing;
+  box-shadow: 0 3px 6px 1px rgba(black, .1);
+  transition: all .3s;
+
+  &--link {
+    background: none;
+    border: none;
+    color: $main-off-white;
+    padding: 0;
+    cursor: pointer;
+  }
+}

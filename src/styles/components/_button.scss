@@ -31,15 +31,23 @@
   color: white;
   font-weight: 500;
   padding: $small-size;
-  margin-bottom: $large-spacing;
   box-shadow: 0 3px 6px 1px rgba(black, .1);
   transition: all .3s;
+  cursor: pointer;
 
   &--link {
     background: none;
+    outline: none;
     border: none;
     color: $main-off-white;
-    padding: 0;
+    padding: 1px;
     cursor: pointer;
+    transition: color .3s;
+
+    &:focus,
+    &:hover {
+      color: lighten($color: $main-off-white, $amount: 15%);
+    }
+  
   }
 }

@@ -1,0 +1,28 @@
+.Add-option {
+
+  &--error {
+    color: $main-off-white;
+    font-style: italic;
+    padding: 0 $medium-spacing;
+    margin: $medium-spacing 0 0 0;
+  }
+
+  &--form {
+    display: flex;
+    padding: $small-size;
+  }
+
+  &__input {
+    flex-grow: 1;
+    margin-right: .8rem;
+    background: $dark-blue-color;
+    border: none;
+    outline: none;
+    color: $main-off-white;
+    padding: 0 0 0 $small-size;
+
+    &:focus {
+      border-bottom: 3px solid $main-purple;
+    }
+  }
+}

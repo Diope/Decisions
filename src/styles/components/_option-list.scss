@@ -1,0 +1,12 @@
+.Option {
+  display: flex;
+  justify-content: space-between;
+  padding: $large-spacing $medium-spacing;
+  border-bottom: 1px solid lighten($color: $light-blue, $amount: 10%);
+
+  &__text {
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+}
